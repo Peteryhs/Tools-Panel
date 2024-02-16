@@ -1,4 +1,5 @@
-interface LanguageTranslations {
+
+export interface LanguageTranslations {
     [key: string]: string; // This allows indexing with any string
 
     searchPlaceholder: string;
@@ -14,6 +15,8 @@ interface LanguageTranslations {
     imageEditor: string;
     // Add any specific keys you know you'll use
 }
+
+
 
 const translations: { [key: string]: LanguageTranslations } = {
     en: {
