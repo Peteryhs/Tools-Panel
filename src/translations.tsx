@@ -1,12 +1,16 @@
-interface Translations {
-    [key: string]: {
-        [key: string]: string;
-    };
+interface LanguageTranslations {
+    searchPlaceholder: string;
+    pdfConversion: string;
+    onlinePdfEditor: string;
+    aiImageUpscaler: string;
+    imageBackgroundRemover: string;
+    fileSharing: string;
+    qrCodeGenerator: string;
+    barCodeGenerator: string;
+    imageEditor: string;
+    // Add other translation keys as needed
 }
-
-
-const translations: Translations = {
-
+const translations: { [key: string]: LanguageTranslations } = {
     en: {
         searchPlaceholder: "Search...",
         pdfConversion: "PDF Conversion",
