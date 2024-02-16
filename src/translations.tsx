@@ -1,4 +1,12 @@
-const translations = {
+interface Translations {
+    [key: string]: {
+        [key: string]: string;
+    };
+}
+
+
+const translations: Translations = {
+
     en: {
         searchPlaceholder: "Search...",
         pdfConversion: "PDF Conversion",
