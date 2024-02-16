@@ -61,7 +61,7 @@ const BoxList: React.FC = () => {
                     style={{ padding: '10px', width: '300px', fontSize: '16px' }}
                 />
             </div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: '120px' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: '20px' }}>
                 {filteredBoxes.map((box: Box) => (
                     <div onClick={() => handleBoxClick(box)} key={box.id} className={`box-hover ${box.text === 'easterEgg' && easterEggActive ? 'easter-egg' : ''}`}>
                         <Box text={(translations[language] as LanguageTranslations)[box.text] || box.text} link={box.link} />
