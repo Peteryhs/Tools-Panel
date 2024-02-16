@@ -10,7 +10,7 @@ interface Box {
 import React, { useState } from 'react';
 import Box from './Box';
 import translations from './translations';
-import { LanguageTranslations } from './translations';
+import LanguageTranslations from "./translations"
 
 
 const BoxList: React.FC = () => {
