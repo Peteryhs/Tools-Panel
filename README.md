@@ -1,4 +1,4 @@
-# Family Tools Portal
+# Family Tools Panel
 
 This project is a web application designed to provide easy access to various online tools for family members who are not familiar with the web. It includes links to tools for PDF manipulation, QR code generation, image editing, file conversion, online storage, and health and wellness.
 
